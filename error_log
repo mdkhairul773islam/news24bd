@@ -1,0 +1,7 @@
+[09-May-2022 16:57:14 asia/dhaka] PHP Fatal error:  Call to undefined function site_url() in /home/freebovd/newsbd4.net/application/views/includes/header.php on line 18
+[09-May-2022 16:57:30 asia/dhaka] PHP Fatal error:  Call to undefined function site_url() in /home/freebovd/newsbd4.net/application/views/includes/header.php on line 18
+[09-May-2022 17:00:38 asia/dhaka] PHP Fatal error:  Call to undefined function site_url() in /home/freebovd/newsbd4.net/application/views/includes/header.php on line 18
+[09-May-2022 17:01:00 asia/dhaka] PHP Fatal error:  Call to undefined function site_url() in /home/freebovd/newsbd4.net/application/views/includes/header.php on line 18
+[24-May-2022 12:12:25 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/freebovd/newsbd4.net/application/views/news/single.php on line 151
+[24-May-2022 12:12:35 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/freebovd/newsbd4.net/application/views/news/single.php on line 151
+[24-May-2022 12:13:26 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/freebovd/newsbd4.net/application/views/news/single.php on line 151

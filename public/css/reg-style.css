@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS document */
+
+/*other stylesheet*/
+@import url('bootstrap.css');
+@import url('calendar.css');
+@import url('jasny-bootstrap.css');
+@import url('font-awesome.css');
+
+body{
+	margin: 0;
+	padding: 0;
+    font-size: 14px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0;
+    color: #398904; 
+}
+
+h2{
+    margin: 30px 0;
+}
+
+h4{
+    border-bottom: 1px solid #7FB650; 
+    padding-bottom: 5px;
+}
+
+.global-padding-top{
+	padding-top: 20px;
+}
+
+.banner{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px dashed #398904;
+	border-radius: 8px;
+}
+
+.aside{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.aside ul{
+    padding: 10px 0 0;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    border: 1px dashed #398904; 
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.aside ul li{
+    padding: 5px 10px;
+    margin: 5px auto;
+    width: 90%;
+	background: linear-gradient(#7FB650, #398904);
+    border-radius: 4px;
+    box-shadow: 0px 7px 6px -6px rgba(0,0,0,0.9);
+}
+
+.aside ul li:hover{
+	background: #398904;
+    padding-left: ;
+}
+
+.aside a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 25px;
+}
+
+.form-wrapper{
+    padding: 10px 0;
+    border: 1px dashed #398904; 
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+form{
+    width: 100%;
+}
+
+form label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: rgba(0,0,0,0.7);
+}
+
+form label span{
+    color: #f00;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    height: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: normal;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    color: rgba(0,0,0,0.7);
+    padding: 0 5px;
+    background: rgba(0,0,0,0.1);
+}
+.first-name{
+    width: 48% !important;
+}
+input[type="text"]:hover{
+    border: 1px solid rgba(120,170,60,0.5);
+}
+
+input[type="text"]:focus{
+    border: 1px solid rgba(120,170,60,0.5);
+    background: #fff;
+    box-shadow: inset 0 1px 1px rgba(150,255,200,0.8), 0 0 8px rgba(150,255,200,0.9);
+}
+
+select{
+    height: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: normal;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    color: rgba(0,0,0,0.7);
+    padding: 0 5px;
+    background: rgba(0,0,0,0.1); 
+}
+
+select:hover{
+    border: 1px solid rgba(120,170,60,0.5);
+}
+
+select:focus{
+    border: 1px solid rgba(120,170,60,0.5);
+    background: #fff;
+    box-shadow: inset 0 1px 1px rgba(150,255,200,0.8), 0 0 8px rgba(150,255,200,0.9);
+}
+
+option{
+    background: rgba(0,0,0,0.1);
+}
+
+textarea{
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: normal;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    color: rgba(0,0,0,0.7);
+    padding: 0 5px;
+    background: rgba(0,0,0,0.1);
+}
+
+textarea:hover{
+    border: 1px solid rgba(120,170,60,0.5);
+}
+
+textarea:focus{
+    border: 1px solid rgba(120,170,60,0.5);
+    background: #fff;
+    box-shadow: inset 0 1px 1px rgba(150,255,200,0.8), 0 0 8px rgba(150,255,200,0.9);
+}
+
+input[type="submit"]{
+    background: linear-gradient(#7FB650, #398904);
+    width: 50%;
+    max-width: 120px;
+    height: 32px;
+    border: 2px solid rgba(60,140,10,1);
+    border-radius: 4px;
+    color: #fff;
+    margin: 5px 0;
+    float: left;
+}
+
+input[type="submit"]:hover{
+    background: #398904;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+
+.btn-custom{
+    background: linear-gradient(#7FB650, #398904);
+    width: 50%;
+    max-width: 120px;
+    height: 32px;
+    border: 2px solid rgba(60,140,10,1);
+    border-radius: 4px;
+    color: #fff;
+    margin: 5px 0;
+    float: left;
+}
+
+.footer{
+	margin-top: 20px;
+	height: Auto;
+	min-height: 80px;
+	border-top: 1px solid rgba(60,140,10,1);
+}
+
+.footer p{
+	line-height: 50px;
+	color: rgba(0,0,0,0.8);
+}
+
+.footer a{
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+
+.footer a:hover{
+	color: rgba(60,140,10,1);
+}
+
+.footer p span{
+	float: right;
+}
+
+/***************** custom for bootstrap style support ****************/
+
+
+
+
+/*********************** custom responsive style *********************/
+@media screen and (max-width: 991px){
+    .aside{
+        width: 100%;
+    }
+    
+    .aside ul li{
+        width: 95%;
+    }
+    .first-name{
+        width: 100% !important;
+    }
+}
+
+
+
+

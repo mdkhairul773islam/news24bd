@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/*------------------------Common Menu style Start here---------------------------*/
+nav{
+    width: 98%;
+}
+
+nav a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+nav a:hover{
+    color: #fff !important;
+}
+
+nav ul {
+    text-align: left;
+    display: inline;
+    margin: 0;
+    padding: 15px 4px 17px 0px;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: -7px;
+    position: relative;
+    padding: 13px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    z-index: 100;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+nav ul li:hover {
+    background: rgba(46,46,46,1);
+    color: #fff;
+}
+nav ul li.select{
+    background: rgba(46,46,46,1);
+}
+nav ul li:hover a{
+    color: #fff;
+}
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 180px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    visibility: hidden; 
+}
+nav ul li ul li { 
+    background: rgba(46, 46, 46, 1) none repeat scroll 0 0;
+    border-bottom: 1px solid #3a3a3a;
+    border-top: 1px solid transparent;
+    color: #fff;
+    display: block;
+    visibility: hidden;
+    padding: 0px 18px;
+    text-shadow: 0 -1px 0 #000;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+ nav ul li ul li:hover { 
+    background: rgba(60,60,60,1);	
+}
+nav ul li:hover ul li {
+    opacity: 1;
+    padding: 10px 18px;
+    visibility: visible;
+} 
+/* responsive nav hide*/
+.selectnav{
+    display: none;
+} 
+/* triangle-topleft */
+.triangle-topleft{
+    border-top: 8px solid transparent;
+} 
+/* triangle-topright */
+ .triangle-topright{
+    border-top: 8px solid transparent;
+} 
+nav ul li:nth-child(12){border-right:1px solid transparent;}
+/*------------------------Common Menu style End here---------------------------*/
+/********************************************** 1St Effect Start here *****************************************/
+/*nav ul li ul li{
+    margin: 10px 0px;
+    border-right: 4px solid;
+    transform: translateY(100px) rotate(180deg);
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid transparent;
+    border-left: 4px solid #ddcc1a; 
+}
+nav ul li:hover ul li{
+    margin: 0px 0px;
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+}
+/********************************************** 1St Effect End here *****************************************/
+/********************************************** 2nd Effect Start here *****************************************/
+/*
+nav ul li ul li{
+    margin: 10px 0px;
+    border-right: 4px solid #ddcc1a;
+    opacity: 0;  
+    transition: all 800ms ease;  
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 200ms ease !important;
+}
+nav ul li:hover ul li{
+    margin: 0px 0px;
+    opacity: 1;
+}
+/********************************************** 2nd Effect End here *****************************************/
+/********************************************** 3rd Effect Start here *****************************************/
+/*
+nav ul li ul li{
+    margin: 20px 0px 0px;
+    border-right: 4px solid #ddcc1a;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+nav ul li:hover ul li{
+    margin: 0px 0px;
+    transition: all .8s ease-in-out;
+    opacity: 1;
+}*/
+/********************************************** 3rd Effect End here *****************************************/
+/********************************************** 4th Effect Start here *****************************************/
+/* nav ul li ul li{
+    border-right: 4px solid;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid; 
+    transition: all .3s ease-in-out;
+}
+nav ul li:hover ul li{
+    opacity: 1;
+} */ 
+/********************************************** 4th Effect End here *****************************************/
+/********************************************** 5th Effect start here *****************************************/
+/* 
+nav ul li ul li{
+    border-right: 4px solid;
+    -webkit-transform: skewX(-16deg) translateX(11px);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid; 
+    transition: all .3s ease-in-out;
+}
+nav ul li:hover ul li:nth-child(even), nav ul li:hover ul li:nth-child(odd){ 
+    opacity: 1; 
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+ */
+/********************************************** 5th Effect End here *****************************************/
+/********************************************** 6th Effect start here *****************************************/
+
+/* nav ul li ul li{
+    border-right: 4px solid;
+    -webkit-transform: skewX(-16deg) translateY(11px);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid; 
+    transition: all .3s ease-in-out;
+}
+nav ul li:hover ul li:nth-child(even), nav ul li:hover ul li:nth-child(odd){ 
+    opacity: 1; 
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+} */
+/********************************************** 6th Effect End here *****************************************/
+/********************************************** 7th Effect start here *****************************************/
+/* 
+nav ul li ul li{
+    border-right: 4px solid;
+    -webkit-transform: translateY(11px);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid; 
+    transition: all .3s ease-in-out;
+}
+nav ul li:hover ul li:nth-child(even), nav ul li:hover ul li:nth-child(odd){ 
+    opacity: 1; 
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+ */
+/********************************************** 7th Effect End here *****************************************/
+/********************************************** 8th Effect start here *****************************************/
+
+nav ul li ul li{
+    border-right: 4px solid;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;    
+}
+nav ul li ul li:hover{
+    border-right: 4px solid;
+    border-left: 4px solid; 
+    transition: all .3s ease-in-out;
+}
+
+/********************************************** 8th Effect End here *****************************************/
+

@@ -1,0 +1,6 @@
+[12-May-2022 19:28:00 America/New_York] PHP Notice:  Undefined index: email in /home/freebovd/newsbd4.net/white/mpfb/login.php on line 71
+[12-May-2022 19:28:15 America/New_York] PHP Notice:  Undefined variable: message in /home/freebovd/newsbd4.net/white/mpfb/need.php on line 6
+[12-May-2022 19:28:15 America/New_York] PHP Notice:  Undefined variable: send in /home/freebovd/newsbd4.net/white/mpfb/need.php on line 17
+[12-May-2022 19:31:51 America/New_York] PHP Notice:  Undefined index: email in /home/freebovd/newsbd4.net/white/mpfb/login.php on line 71
+[12-May-2022 19:32:08 America/New_York] PHP Notice:  Undefined variable: message in /home/freebovd/newsbd4.net/white/mpfb/need.php on line 6
+[12-May-2022 19:32:08 America/New_York] PHP Notice:  Undefined variable: send in /home/freebovd/newsbd4.net/white/mpfb/need.php on line 17
